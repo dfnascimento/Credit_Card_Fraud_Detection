@@ -42,7 +42,7 @@ venv.bak/
 # Data and Models
 data/raw/
 data/processed/
-models/*.pkl
+
 !models/.gitkeep
 
 # Logs
