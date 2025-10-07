@@ -11,7 +11,6 @@ O objetivo é oferecer um endpoint simples e eficiente para realizar previsões 
 ## 💾 Fonte dos Dados
 
 * **Dataset:** [Kaggle - Credit Card Fraud Detection](https://www.kaggle.com/mlg-ulb/creditcardfraud)
-* **Acessado em:** 01/10/2025
 * **Descrição:**
 
   * Contém **284.807 transações** reais realizadas em **setembro de 2013** por titulares de cartões de crédito europeus.
