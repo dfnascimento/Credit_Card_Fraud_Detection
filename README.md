@@ -16,8 +16,8 @@ O objetivo é oferecer um endpoint simples e eficiente para realizar previsões 
 
   * Contém **284.807 transações** reais realizadas em **setembro de 2013** por titulares de cartões de crédito europeus.
   * Apenas **492 transações** são classificadas como fraude (≈ 0,172% do total).
-  * As variáveis **V1 a V28** foram transformadas via **PCA (Análise de Componentes Principais)** para proteger dados confidenciais.
-  * As únicas variáveis não transformadas são:
+  * As features **V1 a V28** foram transformadas via **PCA (Análise de Componentes Principais)** para proteger dados confidenciais.
+  * As únicas features não transformadas são:
 
     * `Time`: segundos decorridos desde a primeira transação.
     * `Amount`: valor da transação.
