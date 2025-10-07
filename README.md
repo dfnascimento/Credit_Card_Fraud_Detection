@@ -80,7 +80,7 @@ credit-card-fraud-api/
    * Regressão Logística
    * Random Forest
    * XGBoost
-   * *
+   * LightGBM
 
 3. **Métricas avaliadas:**
 
