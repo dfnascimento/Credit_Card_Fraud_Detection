@@ -28,7 +28,11 @@ O objetivo é oferecer um endpoint simples e eficiente para realizar previsões 
 ## 🧩 Estrutura do Projeto
 
 ```
-credit-card-fraud-api/
+Credit_Card_Fraud_Detection/
+├── api/
+│   ├── __init__.py
+│   ├── predict.py                        # Implementação do Endpoint API Flask
+│   └── transaction_features.py           # Classe Transaction Features para geração do DataFrame
 │
 ├── data/
 │   └── creditcard.csv                # Dataset original (não versionado)
@@ -39,11 +43,6 @@ credit-card-fraud-api/
 │
 ├── notebooks/
 │   └── Credit_Card_Fraud_Detection.ipynb          # Notebook de treinamento e avaliação
-│
-├── api/
-│   ├── __init__.py
-│   ├── predict.py                        # Implementação do Endpoint API Flask
-│   └── transaction_features.py           # Classe Transaction Features para geração do DataFrame
 │
 ├── requirements.txt                  # Dependências do projeto
 ├── README.md                         # Este arquivo
